@@ -11,16 +11,16 @@
     }
 }
 
-@media screen and (max-device-width: 450px) {
+@media screen and (max-device-width: 500px) {
     .wrapper {
     	height: 360vh;
     	background: black;
     }
     .rect {
     	width: 92%;
-    	height: 23.7%;
+    	height: 82.32vh;
     	margin-left: 4%;
-    	margin-top: 4%;
+    	margin-top: 3.4vh;
     }
 }
 
@@ -36,7 +36,7 @@
     }
 }
 
-@media screen and (max-device-width: 1000px) and (min-device-height: 650px) /*and (min-device-width: 500px)*/{
+@media screen and (max-device-width: 1000px) and (min-device-height: 650px) and (min-device-width: 500px){
     .wrapper {
     	height: 1900px;
     	background: black;
