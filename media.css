@@ -1,17 +1,17 @@
-@media screen and (max-device-width: 850px) {
+@media screen and (max-device-width: 1000px) {
     .wrapper {
-    	height: 180vh;
+    	height: 190vh;
     	background: black;
     }
     .rect {
     	width: 45%;
-    	height: 47%;
+    	height: 84.6vh;
     	margin-left: 3.3%;
-    	margin-top: 3%;
+    	margin-top: 5.4vh;
     }
 }
 
-@media screen and (max-device-width: 450px) {
+@media screen and (max-device-width: 500px) {
     .wrapper {
     	height: 360vh;
     	background: black;
@@ -24,7 +24,7 @@
     }
 }
 
-@media screen and (max-device-height: 500px) and (min-device-width: 850px){
+@media screen and (max-device-height: 500px) and (min-device-width: 1000px){
     .wrapper {
     	height: 475px;
     	/*background: black;*/
@@ -33,6 +33,19 @@
     	height: 430px;
     	margin-top: 22.5px;
     	margin-bottom: 22.5px;
+    }
+}
+
+@media screen and (max-device-width: 1000px) and (min-device-height: 650px){
+    .wrapper {
+    	height: 1900px;
+    	background: black;
+    }
+    .rect {
+    	width: 45%;
+    	height: 820px;
+    	margin-left: 3.3%;
+    	margin-top: 51.6px;
     }
 }
 
