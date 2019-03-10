@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 750px) {
+@media screen and (max-device-width: 850px) {
     .wrapper {
     	height: 180vh;
     	background: black;
@@ -23,3 +23,16 @@
     	margin-top: 4%;
     }
 }
+
+@media screen and (max-device-height: 500px) and (min-device-width: 850px){
+    .wrapper {
+    	height: 475px;
+    	/*background: black;*/
+    }
+    .rect {
+    	height: 430px;
+    	margin-top: 22.5px;
+    	margin-bottom: 22.5px;
+    }
+}
+
