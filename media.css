@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (max-device-width: 500px) {
+@media screen and (max-device-width: 450px) {
     .wrapper {
     	height: 360vh;
     	background: black;
@@ -36,7 +36,7 @@
     }
 }
 
-@media screen and (max-device-width: 1000px) and (min-device-height: 650px){
+@media screen and (max-device-width: 1000px) and (min-device-height: 650px) /*and (min-device-width: 500px)*/{
     .wrapper {
     	height: 1900px;
     	background: black;
