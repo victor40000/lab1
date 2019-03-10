@@ -1,0 +1,6 @@
+@media screen and (max-width: 750px) {
+    .wrapper {
+    	height: 190vh; 
+    	background: black;
+    }
+}
